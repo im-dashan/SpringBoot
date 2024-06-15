@@ -1,0 +1,14 @@
+com\dashan\p2p\service\RedisService.class
+com\dashan\p2p\service\IncomeRecordService.class
+com\dashan\p2p\model\loan\BidInfo.class
+com\dashan\p2p\model\user\User.class
+com\dashan\p2p\service\UserService.class
+com\dashan\p2p\model\loan\RechargeRecord.class
+com\dashan\p2p\service\FinanceAccountService.class
+com\dashan\p2p\model\user\FinanceAccount.class
+com\dashan\p2p\service\LoanInfoService.class
+com\dashan\p2p\model\vo\PaginationVO.class
+com\dashan\p2p\model\loan\LoanInfo.class
+com\dashan\p2p\model\loan\IncomeRecord.class
+com\dashan\p2p\service\BidInfoService.class
+com\dashan\p2p\model\vo\BidUserVO.class

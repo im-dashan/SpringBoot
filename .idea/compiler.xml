@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <excludeFromCompile>
+      <directory url="file://$PROJECT_DIR$/QRCode/src/main/resources/archetype-resources" includeSubdirectories="true" />
+    </excludeFromCompile>
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="p2p-common" />
+        <module name="alipay_demo" />
+        <module name="p2p-dataservice" />
+        <module name="QRCode" />
+        <module name="p2p-timer" />
+        <module name="p2p-pay" />
+        <module name="p2p-exterface" />
+        <module name="p2p-web" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="QRCode" options="" />
+      <module name="p2p-dataservice" options="-parameters" />
+      <module name="p2p-exterface" options="-parameters" />
+      <module name="p2p-pay" options="-parameters" />
+      <module name="p2p-timer" options="-parameters" />
+      <module name="p2p-web" options="-parameters" />
+    </option>
+  </component>
+</project>

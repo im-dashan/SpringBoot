@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <artifactId>p2p-parent</artifactId>
+        <groupId>com.dashan.p2p</groupId>
+        <version>1.0.0</version>
+        <relativePath>../p2p-parent/pom.xml</relativePath>
+    </parent>
+
+    <groupId>com.dashan.p2p</groupId>
+    <artifactId>p2p-timer</artifactId>
+    <version>1.0.0</version>
+
+    <dependencies>
+        <!-- SpringBoot Web 工程起步依赖 -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+        <!-- Dubbo依赖 -->
+        <dependency>
+            <groupId>com.alibaba.spring.boot</groupId>
+            <artifactId>dubbo-spring-boot-starter</artifactId>
+        </dependency>
+        <!-- ZooKeeper依赖 注册中心 -->
+        <dependency>
+            <groupId>com.101tec</groupId>
+            <artifactId>zkclient</artifactId>
+        </dependency>
+        <!-- 接口工程exterface -->
+        <dependency>
+            <groupId>com.dashan.p2p</groupId>
+            <artifactId>p2p-exterface</artifactId>
+            <version>1.0.0</version>
+        </dependency>
+    </dependencies>
+
+</project>

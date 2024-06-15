@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<form name="punchout_form" method="post" action="http://localhost:9090/api/alipay">
+  <input type="hidden" name="out_trade_no" th:value="${rechargeNo}">
+  <input type="hidden" name="total_amount" th:value="${rechargeMoney}">
+  <input type="hidden" name="subject" th:value="${rechargeDesc}">
+
+<!--  <input type="submit" value="立即支付" style="display:none" >-->
+</form>
+<script>document.forms[0].submit();</script>
+
+</body>
+</html>
